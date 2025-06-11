@@ -9,7 +9,7 @@ function Home({ name, title, bio }: HomeProps) {
     <section className="home">
       <h1>{name}</h1>
       <h2>{title}</h2>
-      {bio && <p>{bio}</p>}
+      <p>{bio}</p>
     </section>
   );
 }
