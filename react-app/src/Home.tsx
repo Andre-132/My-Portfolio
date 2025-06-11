@@ -1,7 +1,7 @@
 type HomeProps = {
   name: string;
   title: string;
-  bio?: string;
+  bio: string;
 };
 
 function Home({ name, title, bio }: HomeProps) {
